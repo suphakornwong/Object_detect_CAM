@@ -1,0 +1,8 @@
+streamlit==1.41.1
+opencv-python==4.6.0.66
+#ultralytics==8.2.103
+
+#streamlit==1.45.0
+#opencv-python==4.11.0
+ultralytics==8.3.158
+numpy==1.26.4

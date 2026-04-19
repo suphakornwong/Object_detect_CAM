@@ -1,0 +1,23 @@
+This app allows you to use your WebCAM or Laptop camera. แอปนี้จำเป็นต้องใช้ WebCAM หรือ Laptop camera.
+
+YOLO model ที่ทดสอบชื่อไฟล์ว่า: BestObjectDetect.pt
+---------------------------------------------------------------------
+
+เมื่อคุณ Download folder นี้ลงคอมพิวเตอร์คุณแล้ว สิ่งที่คุณต้องทำต่อไปนี้คือ
+
+1. เปิดสิทธิ์ให้โปรแกรม VS code ทำโดยเปิด Windows Power Shell และป้อนคำสั่ง
+
+	“Set-Executionpolicy -ExecutionPolicy RemoteSigned -Scope Process”
+
+	จากนั้นก็ตอบ Yes to all (ดูวิธีการทำอย่างละเอียดได้ใน Chapter 2) ขั้นตอนนี้ทำเพียงครั้งเดียวเท่านั้น 
+	หากคุณทำหลังจาก Download แอปพลิเคชันใดๆเรียบร้อยแล้ว ไม่จำเป็นต้องทำซ้ำหลังจาก Download 
+	แอปพลิเคชันอื่นลงมาอีกเป็นครั้งที่ 2 ให้ข้ามไป ข้อ 2 ได้เลย
+
+2. โหลด Extension ภาษา Python ลงคอมพิวเตอร์และการติดตั้งใน VS code  (ดูวิธีการทำอย่างละเอียดได้ใน Chapter 2)
+
+3. ตั้งค่า virtual environment ใน VS Code เป้าหมายคือสร้างโฟลเดอร์ชื่อ “.venv”
+	เริ่มจาก ไปที่ช่อพิมพ์ Open quick access กด Ctrl + Shift + P 
+	เลือก "Python: Select Interpreter" --> Create Virtual Environment… --> venv
+	--> ติ๊กถูกที่ requirments.txt (ดูวิธีการทำอย่างละเอียดได้ใน Chapter 2)
+
+
