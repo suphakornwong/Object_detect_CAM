@@ -1,0 +1,10 @@
+.\venv\Scripts\activate 			และกด Enter ***
+
+pip install -r .\requirements.txt 		และกด Enter
+
+streamlit run application.py	 		และกด Enter
+
+-----------------------------------------------------------------
+หมายเหตุ
+ถ้าในโฟลเดอร์ Working space (ที่เปิดด้วย VS code แล้ว) มีโฟลเดอร์ย่อยที่ชื่อว่า “.venv” (หรือตั้งค่า virtual environment แล้ว) ให้ข้ามไปทำคำสั่งบรรทัดที่ 2 และ 3 ได้เลย 
+แต่ถ้าไม่มีโฟลเดอร์ย่อยดังกล่าว ให้พิมพ์ “python -m venv venv” ลงใน terminal เพื่อสร้างโฟลเดอร์ก่อน
